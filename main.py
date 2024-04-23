@@ -4,7 +4,7 @@ import streamlit as st
 API_KEY = "35a1ef28"
 
 try:
-    movie = st.text_input("Enter a move")
+    movie = st.text_input("Enter a movie")
     response = requests.get(f"http://www.omdbapi.com/?t={movie}&apikey=35a1ef28")
     text = response.json()
     print(text["Title"])
