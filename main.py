@@ -1,6 +1,12 @@
 import requests
 import streamlit as st
 
+
+
+# Author: Dynamic_fire07 aka Shaurya Jain
+# This was built in a day
+# Adviced not to be copy this code
+
 API_KEY = "35a1ef28"
 
 try:
