@@ -19,6 +19,7 @@ try:
     st.subheader(f"Director: {text['Director']}")
     st.subheader(f"Language: {text['Language']}")
     st.subheader(f"BoxOffice: {text['BoxOffice']}")
-    st.info(f"Ratings: {text['imbdRating']}")
+    st.info(f"Rating: {text['Ratings'][0]['Value']}")
+    st.info(f"Rating 2: {text['Ratings'][1]['Value']}")
 except KeyError:
     "Movie not found!"
